@@ -1,0 +1,16 @@
+.form-button {
+  width: 100%;
+  font-family: "Open Sans", "Arial", sans-serif;
+  background-color: rgba(18, 159, 51, 0.44);
+  border: none;
+}
+
+.form-button:hover:not(.form-button_active) {
+  background-color: rgba(18, 159, 51, 0.44);
+}
+
+.form-button_active {
+  color: #ffffff;
+  background-color: rgba(9, 255, 64, 0.6);
+}
+

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Jquery" type="javaScript">
+    <CLASSES />
+    <DOCUMENTATION>
+      <root url="https://code.jquery.com/jquery-3.3.1.min.js" />
+    </DOCUMENTATION>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

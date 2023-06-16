@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    background-color: rgba(97, 204, 102, 0.71);
+    background-image: url(2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.topper {
+    font-size: 18px;
+    color: white;
+    background-color: rgba(39, 220, 157, 0.71);
+}
+
+.main-header {
+    padding: 1em;
+    font-size: 15px;
+    text-align: center;
+}
+
+.main-header__back-link {
+    float: left;
+    margin-right: 20px;
+}
+
+.main-header__authors {
+    float: right;
+    text-align: right;
+}
+
+.main-header__info {
+    float: left;
+    text-align: left;
+}
